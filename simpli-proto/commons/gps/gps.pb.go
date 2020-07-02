@@ -24,8 +24,8 @@ package gps
 import (
 	proto "github.com/golang/protobuf/proto"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
-	global "gitlab.com/simpliroute/simpli-proto/commons/global"
-	_ "gitlab.com/simpliroute/simpli-proto/commons/global/descriptor"
+	global "github.com/ldgonza/simpliroute/simpli-proto/commons/global"
+	_ "github.com/ldgonza/simpliroute/simpli-proto/commons/global/descriptor"
 	date "google.golang.org/genproto/googleapis/type/date"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

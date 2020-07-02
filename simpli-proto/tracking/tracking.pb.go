@@ -23,8 +23,8 @@ package tracking
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	global "gitlab.com/simpliroute/simpli-proto/commons/global"
-	gps "gitlab.com/simpliroute/simpli-proto/commons/gps"
+	global "github.com/ldgonza/simpliroute/simpli-proto/commons/global"
+	gps "github.com/ldgonza/simpliroute/simpli-proto/commons/gps"
 	date "google.golang.org/genproto/googleapis/type/date"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
